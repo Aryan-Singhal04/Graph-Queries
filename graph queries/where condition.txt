@@ -1,0 +1,4 @@
+MATCH (i:Info)
+WHERE toInteger(i.Salary) > 80000
+RETURN i.`First Name`
+LIMIT 25

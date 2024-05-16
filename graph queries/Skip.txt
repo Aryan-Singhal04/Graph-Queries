@@ -1,0 +1,4 @@
+MATCH (i:Info)
+RETURN i
+SKIP 5
+LIMIT 10

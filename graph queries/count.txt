@@ -1,0 +1,3 @@
+match(i:Info)
+where i.Gender='M'
+RETURN count(i)

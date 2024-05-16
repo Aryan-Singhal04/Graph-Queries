@@ -1,0 +1,4 @@
+MATCH (i:Info)
+RETURN i.`First Name` AS name, i.Salary AS salary
+ORDER BY salary ASC
+limit 25
